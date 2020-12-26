@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Gallary || Rental Information</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="icon" type="image/png" href="icon.png">
+    <link rel='stylesheet' type='text/css' href='font.css'>
+    <link rel='stylesheet' type='text/css' href='main.css'>
+    <link rel='stylesheet' type='text/css' href='page.css'>
+    <link rel='stylesheet' type='text/css' href='unselectable.css'>
+    <link rel='stylesheet' type='text/css' href='about.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <header>
+        <div class="logo" id="navLogo">gallary</div>
+        <div class="toggle" id="navBtn" onclick="toggleTop()"></div>
+    </header>
+    <section class="containerNav" id="navOption">
+        <ul id="navList">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="ondisplay.html">On Display</a></li>
+            <li><a href="rentthegallary.html">Rent the gallary</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </section>
+    <section id="background-img" class="blur"></section>
+    <section id="containerXD">
+        <div id="containerXD-title">Rental Information</div>
+        <div class="aboutboxs">
+            <div class="aboutbox">
+            <div class="desc-a">One can organaize Seminar Party, Meeting, Exhibition on the Gallary. 
+                <br><br>
+                <b>*Please note that a 2-week advance booking is preferred.</b></div>
+            </div>
+            <div class="aboutbox">
+                <div class="title-a">Payment</div>
+            </div>
+                <table class="desc-table">
+                    <tr>
+                        <th>Event</th>
+                        <th>Per Hour</th>
+                        <th>Half Day</th>
+                        <th>Full Day</th>
+                    </tr>
+                    <tr>
+                        <th>Party</th>
+                        <td>x</td>
+                        <td>x</td>
+                        <td>10,000tk</td>
+                    </tr>
+                    <tr>
+                        <th>Meeting</th>
+                        <td>1,000tk</td>
+                        <td>x</td>
+                        <td>x</td>
+                    </tr>
+                    <tr>
+                        <th>Exhibition</th>
+                        <td>x</td>
+                        <td>x</td>
+                        <td>5,000tk</td>
+                    </tr>
+                </table>
+            <div class="aboutbox">
+                <div class="title-a">Booking procedure</div>
+                <div class="desc-a">Contact us for advance booking. Our Vacancy is visible in our <a href="">calander</a>.</div>
+                <div class="desc-btn">Calender</div>
+                <div class="desc-a">Contact us on these addresses.</div>
+                <div class="desc-btn" onclick="redirect('contact.html')">Contact</div>
+            </div>
+        </div>
+    <div id="containerXD-footer">
+        <div class="Contactbox">
+            <div class="title-a">Send Message</div>
+            
+            <div class="desc-b">
+                <input type="text" placeholder="Name" class="desc-input" id="contact-name">
+                <input type="email" placeholder="Email" class="desc-input" id="contact-email">
+                <textarea id="contact-msg" cols="30" rows="10" class="desc-textarea" placeholder="Write your message..."></textarea>
+                <div class="desc-btn1">Send</div>
+            </div>
+        </div>
+        <p>
+            All Rights Reserved &copy; 2020 | The Gallary <br> Website by <a href="#">Ibrahim Sadik Tamim</a>.
+        </p>
+    </div>
+    </section>
+    <script src='about.js'></script>
+</body>
+</html>

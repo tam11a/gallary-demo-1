@@ -1,0 +1,9 @@
+.containerHome{
+    height: 100vh;
+    width: 100vw;
+    background: url('wangyir-9AY47Hw5SGE-unsplash.jpg');
+    background-position: center;
+    /* background-position-y: -80px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}

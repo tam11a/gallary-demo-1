@@ -1,0 +1,57 @@
+.eventsToday{
+    width: 100%;
+}
+.eventImages{
+    width: 100%;
+    height: 100vh;
+    background: url('moritz-kindler-RvBUKkT_i1Y-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.eventContainer{
+    padding: 50px;
+}
+.eventContainer>p{
+    text-align: justify;
+    margin: 20px 0;
+}
+.eventContainer>table{
+    width: 100%;
+    height: 40px;
+}
+.eventHeader{
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+.event-light{
+    color: #000000cc;
+}
+.event-h1{
+    font-size: 1.5em;
+}
+.eventBtn{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    height: 50px;
+    border-radius: 10px;
+}
+.eventBtn>a{
+    text-decoration: none;
+    color: #fff;
+}
+.eventBtn:hover{
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+}
+.eventBtn:hover>a{
+    color: #000;
+}
+@media(max-width: 800px){
+    .eventBtn{
+        font-size: 0.7em;
+    }
+}

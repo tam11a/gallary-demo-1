@@ -1,0 +1,76 @@
+/* 
+<div class="eventSlide">
+    <div class="eventImage"></div>
+    <div class="eventAbout">
+        <div class="eventName"></div>
+        <div class="eventDate"></div>
+        <div class="eventAuthor"></div>
+        <div class="eventDesc"></div>
+    </div>
+    <div class="eventBtn"></div>
+</div> */
+
+/* 
+<div class="eventsNav">
+<div class="eventSlideShow">
+    <div class="eventSlide">
+        <div class="eventSlideHeader">Todays Event</div>
+        <div class="eventAbout">
+            <div class="eventName">Art Exhibition 2021</div>
+            <div class="eventDate">January 4, 2020</div>
+            <div class="eventAuthor">Gabrial D'Costa</div>
+            <div class="eventDesc">The Art Exhibition of Gabrial D'Costa is arranged by the University of The Art Exhibition of Gabrial D'Costa is arranged by the University of The Art Exhibition of Gabrial D'Costa is arranged by the University of The Art Exhibition of Gabrial D'Costa is arranged by the University of ... <a href="">See More</a></div>
+        </div>
+        <div class="eventBtn"></div>
+    </div>
+</div> */
+
+*{
+    font-size: 1em;
+}
+.eventsNav{
+    margin: auto;
+    padding: 20px 0;
+}
+.eventHeader{
+    font-size: 1.5em;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+.eventSlideShow{
+    width: 100%;
+    height: 70vh;
+}
+.eventSlide{
+    height: 100%;
+    width: 100%;
+    background: url('erika-giraud-6oUY_Hnwmv8-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.eventSlideHeader{
+    position: relative;
+    top: 0;
+    color: #fff;
+    background: #00000088;
+    height: 15%;
+    padding: 20px;
+}
+.eventAbout{
+    position: relative;
+    top: 100%;
+    color: #fff;
+    background: #00000088;
+    padding: 30px;
+    text-align: right;
+    transition: transform 0.5s;
+}
+.eventDesc{
+    text-align: justify;
+}
+
+.eventSlide:hover>.eventAbout{
+    transform: translateY(-130%);
+    transition: transform 0.5s;
+}
